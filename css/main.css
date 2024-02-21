@@ -1,3 +1,7 @@
+* {
+    transition: background-color 1s ;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -7,6 +11,14 @@ body {
     background-image: url("../media/textura-azul.jpg");
     background-size: 10%;
     border-radius: 10px;
+}
+
+#menu h1 {
+    text-align: left;
+    color: lightblue;
+    font-size: 50px;
+    padding-left: 40px;
+    margin-bottom: 0px;
 }
 
 #menu a{
@@ -26,6 +38,8 @@ body {
     border-style: solid 1px;
     background-color: lightblue;
     border-radius: 10px;
+    animation-duration: 2s;
+
 }
 
 #columna h2 {
@@ -41,19 +55,36 @@ body {
     width: 20px;
 }
 
-#post1 {
+.post {
     width: 800px;
     height: 500px;
     background-color: white;
     margin: 40px;
     padding: 10px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posttitle {
+    padding-left: 10px;
+}
+
+.img {
+    width: 750px;
+    height: 400px;
+    background-size: contain;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img1 {
-    width: 750px;
-    height: 400px;
     background-image: url("../media/shrek.webp");
-    background-size: contain;
-    border-radius: 10px;
+}
+
+.bottomrowpost a{
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
 }
