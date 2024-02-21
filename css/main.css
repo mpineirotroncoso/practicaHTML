@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+}
+
+#menu {
+    text-align: center;
+    background-image: url("../media/textura-azul.jpg");
+    background-size: 10%;
+    border-radius: 10px;
+}
+
+#menu a{
+    font-size: 40px;
+    color: lightblue;
+    padding-right: 50px;
+}
+
+#menu a:hover{
+    color: aliceblue;
+}
+
+#columna {
+    float: right;
+    padding: 40px;
+    text-align: right;
+    border-style: solid 1px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#columna h2 {
+    text-align: center;
+}
+
+#pie {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#pie img {
+    width: 20px;
+}
+
+#post1 {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#img1 {
+    width: 750px;
+    height: 400px;
+    background-image: url("../media/shrek.webp");
+    background-size: contain;
+    border-radius: 10px;
+}
