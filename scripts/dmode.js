@@ -14,6 +14,7 @@ function enableDarkStyles() {
     const dmodeicon = document.getElementById('dmode');
     const columna = document.getElementById('columna');
     const posts = document.getElementsByClassName('post');
+    const portada = document.getElementsByClassName('portada');
     const posttitle = document.getElementsByClassName('posttitle');
     const postbottomrow = document.getElementsByClassName('bottomrowpost');
     const pie = document.getElementById('pie');
@@ -30,6 +31,10 @@ function enableDarkStyles() {
 
     for (var i = 0; i < posts.length; i++) {
         posts[i].style.backgroundColor = '#282828'
+    }
+
+    for (var i = 0; i < portada.length; i++) {
+        portada[i].style.backgroundColor = '#282828'
     }
 
     for (var i = 0; i < posttitle.length; i++) {
@@ -60,6 +65,7 @@ function enableLightStyles() {
     const dmodeicon = document.getElementById('dmode');
     const columna = document.getElementById('columna');
     const posts = document.getElementsByClassName('post');
+    const portada = document.getElementsByClassName('portada');
     const posttitle = document.getElementsByClassName('posttitle');
     const postbottomrow = document.getElementsByClassName('bottomrowpost');
     const pie = document.getElementById('pie');
@@ -77,6 +83,9 @@ function enableLightStyles() {
 
     for (var i = 0; i < posts.length; i++) {
         posts[i].style.backgroundColor = 'white'
+    }
+    for (var i = 0; i < portada.length; i++) {
+        portada[i].style.backgroundColor = 'white'
     }
     for (var i = 0; i < posttitle.length; i++) {
         posttitle[i].style.color = 'black'
