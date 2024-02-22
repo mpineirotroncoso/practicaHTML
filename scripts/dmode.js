@@ -21,6 +21,9 @@ function enableDarkStyles() {
     const user = document.getElementById('user');
     const password = document.getElementById('password');
     const logbutton = document.getElementById('logbutton');
+    const soporte = document.getElementsByClassName('soporte');
+    const tablerow = document.getElementsByClassName('row');
+    const table = document.getElementsByClassName('table');
     const background = document.body;
     background.style.backgroundColor = '#1e1e1e'
 
@@ -32,6 +35,9 @@ function enableDarkStyles() {
     for (var i = 0; i < posts.length; i++) {
         posts[i].style.backgroundColor = '#282828'
     }
+    for (var i = 0; i < soporte.length; i++) {
+        soporte[i].style.backgroundColor = '#282828'
+    }
 
     for (var i = 0; i < portada.length; i++) {
         portada[i].style.backgroundColor = '#282828'
@@ -42,8 +48,13 @@ function enableDarkStyles() {
     }
 
     for (var i = 0; i < postbottomrow.length; i++) {
-        console.log(i)
         postbottomrow[i].style.color = '#ffffff'
+    }
+    for (var i = 0; i < tablerow.length; i++) {
+        tablerow[i].style.color = '#ffffff'
+    }
+    for (var i = 0; i < table.length; i++) {
+        table[i].style.color = '#c8c8c8'
     }
 
     pie.style.backgroundColor = '#282828'
@@ -72,6 +83,9 @@ function enableLightStyles() {
     const user = document.getElementById('user');
     const password = document.getElementById('password');
     const logbutton = document.getElementById('logbutton');
+    const soporte = document.getElementsByClassName('soporte');
+    const tablerow = document.getElementsByClassName('row');
+    const table = document.getElementsByClassName('table');
     const background = document.body;
 
     dmodeicon.src = "./media/icons/Lmode.svg"
@@ -84,6 +98,9 @@ function enableLightStyles() {
     for (var i = 0; i < posts.length; i++) {
         posts[i].style.backgroundColor = 'white'
     }
+    for (var i = 0; i < soporte.length; i++) {
+        soporte[i].style.backgroundColor = 'white'
+    }
     for (var i = 0; i < portada.length; i++) {
         portada[i].style.backgroundColor = 'white'
     }
@@ -92,6 +109,12 @@ function enableLightStyles() {
     }
     for (var i = 0; i < postbottomrow.length; i++) {
         postbottomrow[i].style.color = 'black'
+    }
+    for (var i = 0; i < tablerow.length; i++) {
+        tablerow[i].style.color = 'black'
+    }
+    for (var i = 0; i < table.length; i++) {
+        table[i].style.color = 'black'
     }
     pie.style.backgroundColor = 'aliceblue'
     pie.style.color = 'black'

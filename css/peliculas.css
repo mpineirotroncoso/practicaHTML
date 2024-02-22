@@ -1,0 +1,27 @@
+.soporte {
+    width: 1300px;
+    height: auto;
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.soporte table {
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.soporte td, .soporte th{
+    border: solid 2px lightblue;
+    width: 450px;
+    height: 200px;
+}
+
+.soporte th {
+    height: 100px;
+}

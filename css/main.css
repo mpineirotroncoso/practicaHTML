@@ -10,7 +10,7 @@ body {
 
 #cabecera img {
     width: 100%;
-    max-height: 200px;
+    height: 200px;
     margin-bottom: 0px;
     border-radius: 10px;
 }
