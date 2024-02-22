@@ -6,47 +6,57 @@
     <title>Practica html</title>
     <link rel='stylesheet' type='text/css' href='css/main.css'>
     <link rel='stylesheet' type='text/css' href='css/darkmode.css'>
-    <script src='./scripts/main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src='./scripts/dmode.js'></script>
 </head>
 
 <body>
-    <img src="" alt="">
-    <div id="menu">
+    <div id="cabecera">
+        <img src="./media/cabecera.jpeg">
+    </div>
+
+    <div id="menu" style="margin-top: -40px;">
         <h1>Inicio</h1>
         <a href="">Novidades</a> <a href="">Series</a> <a href="">Peliculas</a>
-        <a href="">Xogos</a> <a href="">Sobre min</a> <div style="display: inline; "><img align="right" id="dmode" onclick="switchDarkMode()" width="50px" src="./media/icons/Lmode.svg"></div> 
+        <a href="">Xogos</a> <a href="">Sobre min</a>
+        <div style="display: inline; "><img align="right" id="dmode" onclick="switchDarkMode()" width="50px"
+                src="./media/icons/Lmode.svg"></div>
     </div>
 
     <div id="columna">
         <h2>Iniciar sesión</h2>
         <form action="" method="post">
             <p>Usuario:
-                <input type="text" name="" id="">
+                <input id="user" type="text" name="" id="">
             </p>
             <p>Contraseña:
-                <input type="password" name="" id="">
+                <input id="password" type="password" name="" id="">
             </p>
             <br>
-            <input type="submit" value="Iniciar sesion">
+            <input id="logbutton" type="submit" value="Iniciar sesion">
         </form>
     </div>
 
     <div class="post">
         <h1 class="posttitle">Hola</h1>
         <div class="img" id="img1"></div>
-        <div class="bottomrowpost"> <a href="">Me gusta</a> <a href="">Comentarios</a></div>
+        <div> <a class="bottomrowpost" href="">Me gusta</a> <a class="bottomrowpost" href="">Comentarios</a></div>
     </div>
 
     <div class="post">
         <h1 class="posttitle">Hola</h1>
         <div class="img" id="img1"></div>
-        <div class="bottomrowpost"> <a href="">Me gusta</a> <a href="">Comentarios</a></div>
+        <div> <a class="bottomrowpost" href="">Me gusta</a> <a class="bottomrowpost" href="">Comentarios</a></div>
     </div>
 
     <div class="post">
         <h1 class="posttitle">Hola</h1>
         <div class="img" id="img1"></div>
-        <div class="bottomrowpost"> <a class="bottomrowpost" href="">Me gusta</a> <a class="bottomrowpost" href="">Comentarios</a></div>
+        <div> <a class="bottomrowpost" href="">Me gusta</a> <a class="bottomrowpost" href="">Comentarios</a></div>
     </div>
 
     <div id="pie">
