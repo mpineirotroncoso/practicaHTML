@@ -1,13 +1,9 @@
 #imgportada {
     background-image: url("../media/portada.jpeg");
-    font-size: 0px;
+    font-size: large;
     align-items: center;
     display: flex;
     color: antiquewhite;
-}
-
-#imgportada:hover {
-    font-size: large;
 }
 
 .portada {
