@@ -47,6 +47,7 @@ body {
     font-size: 40px;
     color: lightblue;
     padding-right: 50px;
+    cursor: default;
 }
 
 #menu a:hover {

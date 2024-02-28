@@ -1,11 +1,34 @@
+const urlParams = new URLSearchParams(window.location.search);
+const mode = urlParams.get('mode');
 var dark = false;
 
+if (!urlParams.has('mode')) {
+    urlParams.set('mode','light');
+    window.location.search = urlParams;
+}
+
+if (mode == 'light') {
+    dark = false;
+    setTimeout(() => {
+        enableLightStyles();    
+    }, 100);
+} else {
+    dark = true;
+    setTimeout(() => {
+        enableDarkStyles();    
+    }, 100);
+}
+
 function switchDarkMode() {
-    if (!dark) {
-        dark = !dark;
+    if (dark==false) {
+        dark = true;
+        urlParams.set('mode','dark');
+        window.history.pushState(null,null,window.location.pathname+'?'+urlParams)
         enableDarkStyles();
     } else {
-        dark = !dark;
+        dark = false;
+        urlParams.set('mode','light');
+        window.history.pushState(null,null,window.location.pathname+'?'+urlParams)
         enableLightStyles();
     }
 }
