@@ -1,0 +1,15 @@
+.serie1:hover {
+    filter: blur(4px);
+}
+
+.serie2:hover {
+    filter: grayscale();
+}
+
+.serie3:hover {
+    filter: saturate(180);
+}
+
+.serie4:hover {
+    filter: opacity(0.5);
+}
