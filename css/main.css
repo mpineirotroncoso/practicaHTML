@@ -69,6 +69,10 @@ body {
     border-color: white;
 }
 
+#logbutton, #password, #user{
+    border-radius: 5px;
+}
+
 #columna h2 {
     text-align: center;
 }
