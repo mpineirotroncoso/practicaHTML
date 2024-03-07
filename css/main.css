@@ -54,6 +54,10 @@ body {
     color: aliceblue;
 }
 
+#dmode {
+    text-align: right;
+}
+
 #columna {
     float: right;
     padding: 40px;
