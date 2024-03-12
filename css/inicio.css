@@ -1,5 +1,6 @@
 #imgportada {
     background-image: url("../media/portada.jpeg");
+    background-size: cover;
     font-size: large;
     align-items: center;
     display: flex;
@@ -16,5 +17,21 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    display: flex;
+    display: block;
+}
+
+#selector {
+    margin: 10px;
+    margin-left: 40px;
+    display: inline;
+    width: 300px;
+}
+
+#selector2 {
+    display: inline;
+    width: 300px;
+}
+
+#selectores {
+    text-align: center;
 }
