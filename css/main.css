@@ -65,9 +65,27 @@ body {
     border-style: solid 1px;
     background-color: lightblue;
     border-radius: 10px;
-    animation-duration: 2s;
-
 }
+
+@media screen and (max-width: 1657px) {
+    #columna {
+        display: flex;
+        float: none;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        opacity: 0;
+        animation: fade-in 1s forwards;
+    }
+
+    @keyframes fade-in {
+        100% {
+          opacity: 1;
+          display: flex;
+        }
+      }
+  }
 
 #columna input {
     border-color: white;
