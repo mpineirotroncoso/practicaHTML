@@ -108,21 +108,6 @@ body {
     width: 20px;
 }
 
-.post {
-    width: 800px;
-    height: 510px;
-    background-color: white;
-    margin: 40px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.posttitle {
-    padding-left: 10px;
-}
-
 .img {
     width: 750px;
     height: 400px;
@@ -130,14 +115,4 @@ body {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-
-#img1 {
-    background-image: url("../media/shrek.webp");
-}
-
-.bottomrowpost {
-    font-size: 20px;
-    color: black;
-    margin-left: 20px;
 }
